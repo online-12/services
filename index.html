@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vivek Aggarwal | Software & Website Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
-      background-color: #f9f9f9;
+      background-color: #f0f2f5;
+      color: #333;
     }
-    header, footer {
-      background: #111;
-      color: #fff;
-      padding: 20px;
+    header {
+      background-color: #1e1e2f;
+      color: #ffffff;
+      padding: 30px 20px;
       text-align: center;
     }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+    nav {
+      margin-top: 15px;
+    }
     nav a {
+      color: #ffffff;
       margin: 0 15px;
-      color: white;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
     }
     nav a:hover {
       text-decoration: underline;
@@ -31,32 +47,46 @@
       padding: 60px 20px;
       max-width: 1000px;
       margin: auto;
+      background-color: #ffffff;
+      margin-top: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
-    h1, h2 {
-      color: #222;
+    h2 {
+      color: #1e1e2f;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
     }
     .btn {
       display: inline-block;
       background: #007bff;
-      color: white;
+      color: #ffffff;
       padding: 12px 25px;
-      border: none;
       text-decoration: none;
+      border-radius: 6px;
       margin-top: 20px;
-      border-radius: 5px;
+      font-weight: 600;
     }
     ul {
       padding-left: 20px;
     }
     .project, .faq {
-      background: #fff;
+      background: #f8f9fb;
       padding: 20px;
-      margin: 20px 0;
+      margin-bottom: 20px;
+      border-left: 4px solid #007bff;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     .faq h3 {
-      margin-bottom: 10px;
+      margin-top: 0;
+    }
+    footer {
+      background-color: #1e1e2f;
+      color: #ffffff;
+      text-align: center;
+      padding: 25px 20px;
+      margin-top: 40px;
     }
   </style>
 </head>
