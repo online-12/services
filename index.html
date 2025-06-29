@@ -5,12 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vivek Aggarwal | Software & Website Services</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header, footer { background: #111; color: #fff; padding: 20px; text-align: center; }
-    nav a { margin: 0 10px; color: white; text-decoration: none; }
-    section { padding: 40px 20px; max-width: 800px; margin: auto; }
-    h1, h2 { color: #222; }
-    .btn { background: #007bff; color: white; padding: 10px 20px; border: none; text-decoration: none; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    header, footer {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .btn {
+      display: inline-block;
+      background: #007bff;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      text-decoration: none;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .project, .faq {
+      background: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .faq h3 {
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
@@ -21,13 +68,16 @@
   <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#faq">FAQ</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <section id="about">
   <h2>About Me</h2>
-  <p>I help local businesses get online with professional websites, custom software, and ongoing support. I bring strong technical skills and a focus on simple, clean solutions.</p>
+  <p>I'm Vivek Aggarwal, a passionate developer helping small and medium businesses leverage technology. With experience in both frontend and backend, I provide full-cycle solutions—from websites to automation.</p>
+  <p>Whether you need a responsive website, an internal software tool, or just tech consultation—I’ve got you covered.</p>
 </section>
 
 <section id="services">
@@ -35,16 +85,46 @@
   <ul>
     <li>Custom Website Development (HTML/CSS, React, Angular)</li>
     <li>Mobile App Development (Flutter/React Native)</li>
-    <li>Software Automation & Integrations</li>
+    <li>Business Process Automation & Integrations</li>
+    <li>eCommerce Setup (Shopify, WooCommerce)</li>
     <li>SEO & Performance Optimization</li>
+    <li>Technical Consulting & Troubleshooting</li>
   </ul>
+</section>
+
+<section id="projects">
+  <h2>Featured Projects</h2>
+  <div class="project">
+    <h3>Restaurant Ordering System</h3>
+    <p>A web-based POS and order management system for a local restaurant. Includes real-time order tracking and customer feedback integration.</p>
+  </div>
+  <div class="project">
+    <h3>Real Estate Listing Website</h3>
+    <p>A fast, mobile-friendly platform allowing agents to list and manage property details with Google Maps integration and custom search filters.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq">
+    <h3>What is your pricing model?</h3>
+    <p>I offer fixed-price packages for common services and hourly billing for custom work. Contact me for a quote.</p>
+  </div>
+  <div class="faq">
+    <h3>Do you offer ongoing maintenance?</h3>
+    <p>Yes, I provide affordable monthly maintenance plans including updates, backups, and bug fixes.</p>
+  </div>
+  <div class="faq">
+    <h3>Can you redesign my existing website?</h3>
+    <p>Absolutely! I specialize in revamping outdated sites to modern, mobile-friendly designs.</p>
+  </div>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
   <p>Email: <a href="mailto:va1401.work@gmail.com">va1401.work@gmail.com</a></p>
-<!--   <p>Phone: +91-XXXXXXXXXX</p> -->
-  <a href="mailto:you@example.com" class="btn">Get In Touch</a>
+  <p>Location: Delhi, India (Remote support available)</p>
+  <a href="mailto:va1401.work@gmail.com" class="btn">Get In Touch</a>
 </section>
 
 <footer>
